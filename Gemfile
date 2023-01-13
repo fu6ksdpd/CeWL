@@ -1,8 +1,7 @@
-source 'https://rubygems.org'
-gem 'mime'
-gem 'mime-types', ">=3.3.1"
-gem 'mini_exiftool'
-gem 'nokogiri'
-gem 'rexml'
-gem 'rubyzip'
-gem 'spider'
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
